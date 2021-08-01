@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100.00001mm"
+   height="100mm"
+   viewBox="0 0 100.00001 100"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c4e8f9e, 2021-05-24)"
+   sodipodi:docname="fence_tiles_straight_nobar.svg"
+   inkscape:export-filename="/Users/khaine/Documents/Vector/parallax rocks idea/whole thing.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:snap-global="false"
+     inkscape:zoom="0.77212698"
+     inkscape:cx="245.42595"
+     inkscape:cy="74.469616"
+     inkscape:window-width="1312"
+     inkscape:window-height="847"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer3" />
+  <defs
+     id="defs2">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5784">
+      <rect
+         style="display:inline;fill:#e6e6e6;stroke:#000000;stroke-width:0.0866818"
+         id="rect5786"
+         width="96.684654"
+         height="99.911888"
+         x="3.4489625"
+         y="0.044058248" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5788">
+      <rect
+         style="display:inline;fill:#e6e6e6;stroke:#000000;stroke-width:0.0881166"
+         id="rect5790"
+         width="99.911888"
+         height="99.911888"
+         x="0.044058248"
+         y="0.044058248" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5792">
+      <rect
+         style="display:inline;fill:#e6e6e6;stroke:#000000;stroke-width:0.0881166"
+         id="rect5794"
+         width="99.911888"
+         height="99.911888"
+         x="-57.409237"
+         y="103.79435" />
+    </clipPath>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(57.453295,-103.75029)"
+     style="display:none;opacity:1">
+    <rect
+       style="fill:#e6e6e6;stroke:#000000;stroke-width:0.0881165"
+       id="rect843"
+       width="99.911888"
+       height="99.91188"
+       x="-57.409237"
+       y="103.79435"
+       clip-path="url(#clipPath5792)" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Layer 2">
+    <g
+       id="g4398"
+       transform="matrix(1.0333789,0,0,1,-3.5200268,0)"
+       style="fill:#8f6c52;fill-opacity:1"
+       clip-path="url(#clipPath5784)">
+      <path
+         id="rect4147"
+         style="fill:#8f6c52;stroke-width:0.220582;fill-opacity:1"
+         d="m 9.1160303,16.912767 5.7097037,8.214774 V 86.0135 H 3.4063275 V 25.127541 Z"
+         sodipodi:nodetypes="cccccc" />
+      <path
+         id="path4385"
+         style="fill:#8f6c52;stroke-width:0.220582;fill-opacity:1"
+         d="m 28.776062,16.912767 5.709704,8.214774 V 86.0135 H 23.066359 V 25.127541 Z"
+         sodipodi:nodetypes="cccccc" />
+      <path
+         id="path4387"
+         style="fill:#8f6c52;stroke-width:0.220582;fill-opacity:1"
+         d="m 48.436092,16.912767 5.709704,8.214774 V 86.0135 H 42.726389 V 25.127541 Z"
+         sodipodi:nodetypes="cccccc" />
+      <path
+         id="path4389"
+         style="fill:#8f6c52;stroke-width:0.220582;fill-opacity:1"
+         d="m 68.096124,16.912767 5.709704,8.214774 V 86.0135 H 62.386421 V 25.127541 Z"
+         sodipodi:nodetypes="cccccc" />
+      <path
+         id="path4391"
+         style="fill:#8f6c52;stroke-width:0.220582;fill-opacity:1"
+         d="m 87.756157,16.912767 5.709704,8.214774 V 86.0135 H 82.046454 V 25.127541 Z"
+         sodipodi:nodetypes="cccccc" />
+    </g>
+  </g>
+</svg>

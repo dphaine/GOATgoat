@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100.00001mm"
+   height="100mm"
+   viewBox="0 0 100.00001 100"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c4e8f9e, 2021-05-24)"
+   sodipodi:docname="fence_tiles_angle_nobar copy.svg"
+   inkscape:export-filename="/Users/khaine/Documents/Vector/parallax rocks idea/whole thing.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:snap-global="false"
+     inkscape:zoom="0.77212698"
+     inkscape:cx="209.16249"
+     inkscape:cy="140.52093"
+     inkscape:window-width="1312"
+     inkscape:window-height="847"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer3" />
+  <defs
+     id="defs2">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath6018">
+      <rect
+         style="display:inline;fill:#000000;stroke:#000000;stroke-width:0.0881166"
+         id="rect6020"
+         width="99.911888"
+         height="99.911888"
+         x="0.044058248"
+         y="0.044058248" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath6022">
+      <rect
+         style="display:inline;fill:#000000;stroke:#000000;stroke-width:0.0881166"
+         id="rect6024"
+         width="99.911888"
+         height="99.911888"
+         x="0.044058248"
+         y="0.044058248" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath6026">
+      <rect
+         style="display:inline;fill:#000000;stroke:#000000;stroke-width:0.0881166"
+         id="rect6028"
+         width="99.911888"
+         height="99.911888"
+         x="0.044058248"
+         y="0.044058248" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath6030">
+      <rect
+         style="display:inline;fill:#000000;stroke:#000000;stroke-width:0.0881166"
+         id="rect6032"
+         width="99.911888"
+         height="99.911888"
+         x="0.044058248"
+         y="0.044058248"
+         transform="rotate(-45)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath6034">
+      <rect
+         style="display:inline;fill:#000000;stroke:#000000;stroke-width:0.0881166"
+         id="rect6036"
+         width="99.911888"
+         height="99.911888"
+         x="-57.409237"
+         y="103.79435" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath6038">
+      <rect
+         style="display:inline;fill:#000000;stroke:#000000;stroke-width:0.0881166"
+         id="rect6040"
+         width="99.911888"
+         height="99.911888"
+         x="-57.409237"
+         y="103.79435" />
+    </clipPath>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(57.453295,-103.75029)"
+     style="display:none;opacity:1">
+    <rect
+       style="fill:#e6e6e6;stroke:#000000;stroke-width:0.0881165"
+       id="rect843"
+       width="99.911888"
+       height="99.91188"
+       x="-57.409237"
+       y="103.79435"
+       clip-path="url(#clipPath6038)" />
+    <rect
+       style="fill:#000000;stroke:#000000;stroke-width:0.0881165"
+       id="rect5620"
+       width="99.911888"
+       height="99.91188"
+       x="-57.409237"
+       y="103.79435"
+       clip-path="url(#clipPath6034)" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Layer 2">
+    <path
+       id="path4385"
+       style="fill:#8f6c52;fill-opacity:1;stroke-width:0.224233"
+       d="M 57.613359,10.214894 55.97677,20.19575 12.923895,63.248625 4.5796294,54.904358 47.632504,11.851484 Z"
+       sodipodi:nodetypes="cccccc"
+       clip-path="url(#clipPath6026)" />
+    <path
+       id="path4387"
+       style="fill:#8f6c52;fill-opacity:1;stroke-width:0.224233"
+       d="M 71.979124,24.58066 70.342535,34.561516 27.289661,77.61439 18.945395,69.270124 61.998269,26.217249 Z"
+       sodipodi:nodetypes="cccccc"
+       clip-path="url(#clipPath6022)" />
+    <path
+       id="path4389"
+       style="fill:#8f6c52;fill-opacity:1;stroke-width:0.224233"
+       d="M 86.344891,38.946427 84.708302,48.927282 41.655428,91.980157 33.311162,83.635891 76.364036,40.583016 Z"
+       sodipodi:nodetypes="cccccc"
+       clip-path="url(#clipPath6018)" />
+    <path
+       id="path6356"
+       style="fill:#8f6c52;fill-opacity:1;stroke-width:0.224233"
+       d="M 57.613359,10.214894 55.97677,20.19575 12.923895,63.248625 4.5796294,54.904358 47.632504,11.851484 Z"
+       sodipodi:nodetypes="cccccc"
+       clip-path="url(#clipPath6026)" />
+  </g>
+</svg>

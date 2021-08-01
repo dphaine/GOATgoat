@@ -8,6 +8,12 @@ var gateIsUp = false
 func _ready():
 	get_tree().call_group("goats", "setTarget", $StartOfTunnel)
 	$HallCam.current = true
+	
+	Globals.startOfTunnelLocation = $StartOfTunnel
+	# force = Globals.startOfTunnelLocation.position - positoin
+	# force = force.normalized() * multiplier
+	
+	
 
 func setGate(up:bool) -> void:
 	gateIsUp = up

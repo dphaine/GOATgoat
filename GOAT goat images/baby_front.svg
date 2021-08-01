@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="300.26459mm"
+   height="300.26459mm"
+   viewBox="0 0 300.26459 300.26459"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c4e8f9e, 2021-05-24)"
+   sodipodi:docname="baby_front.svg"
+   inkscape:export-filename="/Users/khaine/Documents/Vector/parallax rocks idea/whole thing.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:snap-global="false"
+     inkscape:zoom="0.61417033"
+     inkscape:cx="475.43814"
+     inkscape:cy="598.36821"
+     inkscape:window-width="1440"
+     inkscape:window-height="847"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect1157"
+       is_visible="true"
+       lpeversion="1" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(57.453298,-103.75029)"
+     style="display:inline;opacity:1">
+    <path
+       id="path1143"
+       style="fill:#ffffff;stroke:none;stroke-width:0.999999px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="M 548.5293 543.02734 C 551.10059 563.01002 582.59176 598.80273 612.00586 598.80273 C 624.33548 598.80273 638.98121 594.09602 652.09961 587.22266 C 617.76345 566.09509 605.04045 555.70048 576.06836 548.43359 C 563.21408 547.41244 554.76153 545.67062 549.17773 543.12109 C 548.9795 543.08986 548.72885 543.05855 548.5293 543.02734 z "
+       transform="matrix(0.26458333,0,0,0.26458333,-57.453298,103.75029)" />
+    <path
+       id="path1643"
+       style="fill:#ffffff;stroke:none;stroke-width:0.999999px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="M 284.91602 482.39648 C 274.91448 482.32278 262.67828 491.50727 246.75781 513.32422 C 238.89186 524.10348 233.53573 527.62092 228.08203 530.01562 C 224.38892 572.91481 257.20903 592.54424 325.08789 598.61523 C 323.14184 602.10852 321.47062 605.24822 319.5918 608.64453 C 330.48082 599.44849 340.57315 589.50276 349.1875 579.36523 C 378.90975 544.38771 326.2763 551.06104 315.49414 521.41016 C 306.94054 497.88766 297.7751 482.4909 284.91602 482.39648 z "
+       transform="matrix(0.26458333,0,0,0.26458333,-57.453298,103.75029)" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="owo"
+     style="display:inline">
+    <path
+       style="display:inline;fill:#6a554d;fill-opacity:1;stroke:none;stroke-width:0.329973px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 109.29299,107.55908 c 2.4617,-10.314368 25.29168,-15.839678 25.29168,-15.839678 0,0 -12.01002,13.032658 -16.39014,21.253248 -4.38012,8.22061 -9.83049,-1.52135 -8.90154,-5.41357 z"
+       id="path4397"
+       sodipodi:nodetypes="sczs" />
+    <path
+       style="display:inline;fill:#e28eb9;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 67.812842,137.91328 6.77533,0.7132 -3.92256,3.20937 z"
+       id="path4626" />
+  </g>
+</svg>

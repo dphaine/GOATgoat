@@ -5,8 +5,8 @@
 [ext_resource path="res://goat/white_circle.png" type="Texture" id=3]
 
 [sub_resource type="CapsuleShape2D" id=1]
-radius = 27.975
-height = 0.0
+radius = 19.5092
+height = 20.2003
 
 [node name="goat" type="RigidBody2D"]
 script = ExtResource( 1 )
@@ -23,4 +23,7 @@ texture = ExtResource( 2 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2( 1.5, -0.375 )
+rotation = 1.5708
 shape = SubResource( 1 )
+
+[node name="Camera2D" type="Camera2D" parent="."]

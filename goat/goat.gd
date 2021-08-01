@@ -18,7 +18,7 @@ var goatMindset = goatState.MILLING_IN_PASTURE
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	linear_velocity = Vector2(50, 20)
+	linear_velocity = Vector2(80, 20)
 	add_to_group("goats")
 
 var speed = 250
@@ -30,3 +30,12 @@ func _process(_delta):
 	elif goatMindset == goatState.GOING_TO_TUNNEL:
 		pass
 
+func _integrate_forces(state):
+	var lv = state.get_linear_velocity()
+#	var step = state.get_step()
+	
+	lv.x += 100.0 * state.get_step()
+#	lv.x += 30.0 
+	state.set_linear_velocity(lv)
+	
+	

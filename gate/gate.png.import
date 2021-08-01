@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/gate.png-9d9294044302d344a5b1fe3a5d77df29.stex"
+path="res://.import/gate.png-4807689d09ee070a6f3447a0518b2421.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://level1/gate.png"
-dest_files=[ "res://.import/gate.png-9d9294044302d344a5b1fe3a5d77df29.stex" ]
+source_file="res://gate/gate.png"
+dest_files=[ "res://.import/gate.png-4807689d09ee070a6f3447a0518b2421.stex" ]
 
 [params]
 

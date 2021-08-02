@@ -1,4 +1,4 @@
-[gd_scene load_steps=19 format=2]
+[gd_scene load_steps=20 format=2]
 
 [ext_resource path="res://goat/goat.tscn" type="PackedScene" id=1]
 [ext_resource path="res://fence_tiles_straight_nobar.svg" type="Texture" id=2]
@@ -119,15 +119,18 @@ extents = Vector2( 58.5374, 83.2728 )
 [sub_resource type="RectangleShape2D" id=9]
 extents = Vector2( 100.058, 65.5724 )
 
+[sub_resource type="RectangleShape2D" id=10]
+extents = Vector2( 28.3429, 157.64 )
+
 [node name="Level1" type="Node2D"]
 script = ExtResource( 3 )
 
 [node name="TextureRect" type="TextureRect" parent="."]
 modulate = Color( 0.94902, 1, 0.870588, 1 )
-margin_left = -88.0
-margin_top = -430.0
-margin_right = 23215.0
-margin_bottom = 15413.0
+margin_left = -759.0
+margin_top = -450.0
+margin_right = 23886.0
+margin_bottom = 15433.0
 rect_scale = Vector2( 0.5, 0.5 )
 texture = ExtResource( 8 )
 stretch_mode = 2
@@ -211,7 +214,7 @@ shape = SubResource( 7 )
 "BreedEntrance",
 "EndOfTunnelGroup",
 ]]
-position = Vector2( 1079.72, 228.385 )
+position = Vector2( 1305.93, 310.93 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -224,7 +227,7 @@ shape = SubResource( 8 )
 "DestinyEntrance",
 "EndOfTunnelGroup",
 ]]
-position = Vector2( 1091.63, 410.142 )
+position = Vector2( 1570.23, 332.36 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -236,7 +239,7 @@ shape = SubResource( 8 )
 [node name="Destiny" type="Area2D" parent="." groups=[
 "DestinyZone",
 ]]
-position = Vector2( 1446.33, 655.962 )
+position = Vector2( 1357.43, 651.199 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -247,10 +250,21 @@ shape = SubResource( 9 )
 [node name="breedingLocation" type="Area2D" parent="." groups=[
 "BreedingZone",
 ]]
-position = Vector2( 1412.63, -59.0506 )
+position = Vector2( 1507.87, -87.6238 )
 __meta__ = {
 "_edit_group_": true
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="breedingLocation"]
 shape = SubResource( 9 )
+
+[node name="decisionPoint" type="Area2D" parent="." groups=[
+"DecisionPoint",
+]]
+position = Vector2( 1038, 312.401 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="decisionPoint"]
+shape = SubResource( 10 )

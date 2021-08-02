@@ -23,6 +23,8 @@ enum goatState {
 	RETIRING
 }
 
+var gateIsUp = false
+
 # Number of sheepProcessed
 var sheepProcessed: int = 0
 

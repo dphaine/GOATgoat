@@ -61,14 +61,20 @@ func _process(_delta):
 				
 	elif goatMindset == Globals.goatState.IN_TUNNEL:
 		for zone in overlappingZones:
-			if zone.is_in_group("EndOfTunnelGroup"):
-#				print("Got to End of Tunnel!!!")
-				if zone.is_in_group("BreedEntrance"):
-					print("Yay ", self, " gets to breed")
-					changeState(Globals.goatState.IN_BREEDING_AREA)
-				else:
-					print("I guess ", self, " is retiring")
+			if zone.is_in_group("DecisionPoint"):
+				if Globals.gateIsUp:
 					changeState(Globals.goatState.IN_UNKNOWN_DESTINY)
+				else:
+					changeState(Globals.goatState.IN_BREEDING_AREA)
+					
+#			if zone.is_in_group("EndOfTunnelGroup"):
+##				print("Got to End of Tunnel!!!")
+#				if zone.is_in_group("BreedEntrance"):
+#					print("Yay ", self, " gets to breed")
+#					changeState(Globals.goatState.IN_BREEDING_AREA)
+#				else:
+#					print("I guess ", self, " is retiring")
+#					changeState(Globals.goatState.IN_UNKNOWN_DESTINY)
 		
 	elif goatMindset == Globals.goatState.IN_BREEDING_AREA:
 		for zone in overlappingZones:

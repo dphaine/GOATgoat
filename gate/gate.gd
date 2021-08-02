@@ -1,8 +1,6 @@
 # Gate code
 extends KinematicBody2D
 
-export var gateIsUp = false
-
 var gateAngle = 0.0
 var targetAngle = 0.0
 
@@ -12,13 +10,13 @@ const TOLERANCE = 3
 
 func _ready():
 	gateAngle = get_global_rotation_degrees()
-	targetAngle = gateAngle
-	print("Gate started at ", gateAngle)
+	setGate(true)
+
 
 func setGate(isUp:bool) -> void:
 #	print("changing gate to ", isUp)
-	gateIsUp = isUp
-	if gateIsUp:
+	Globals.gateIsUp = isUp
+	if isUp:
 		targetAngle = GATE_ANGLE_DEGREES
 	else:
 		targetAngle = -GATE_ANGLE_DEGREES

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/female_front.svg-d73307354a1a1c13520eb9bbdfcc155e.stex"
+path="res://.import/male_front.svg-3361aea3d3f480b46f6d7fc42b03dfa5.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://GOAT goat images/female_front.svg"
-dest_files=[ "res://.import/female_front.svg-d73307354a1a1c13520eb9bbdfcc155e.stex" ]
+source_file="res://goat/male_front.svg"
+dest_files=[ "res://.import/male_front.svg-3361aea3d3f480b46f6d7fc42b03dfa5.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/baby_back.svg-a4334b238b390fb9bedba48eeed5b597.stex"
+path="res://.import/baby_front.svg-bb1d0c51355888399d14470ea2644ef1.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://GOAT goat images/baby_back.svg"
-dest_files=[ "res://.import/baby_back.svg-a4334b238b390fb9bedba48eeed5b597.stex" ]
+source_file="res://goat/baby_front.svg"
+dest_files=[ "res://.import/baby_front.svg-bb1d0c51355888399d14470ea2644ef1.stex" ]
 
 [params]
 

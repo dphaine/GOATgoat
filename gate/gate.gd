@@ -16,7 +16,7 @@ func _ready():
 	print("Gate started at ", gateAngle)
 
 func setGate(isUp:bool) -> void:
-	print("changing gate to ", isUp)
+#	print("changing gate to ", isUp)
 	gateIsUp = isUp
 	if gateIsUp:
 		targetAngle = GATE_ANGLE_DEGREES

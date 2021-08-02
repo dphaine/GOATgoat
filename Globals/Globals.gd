@@ -8,6 +8,18 @@ extends Node2D
 # Access this with: Globals.startOfTunnelLocation = $StartOfTunnel
 var startOfTunnelLocation : Position2D
 
+enum goatState {
+	BABY_GOING_TO_PASTURE,
+	BABY_GROWING,
+	MILLING_IN_PASTURE,
+	GOING_TO_TUNNEL,
+	IN_TUNNEL,
+	IN_UNKNOWN_DESTINY,
+	IN_BREEDING_AREA,
+	BREEDING,
+	RETIRING
+}
+
 ## Paths to subsequent levels.  The last one is the final tally
 #const levelPaths = ["res://Level1.tscn", "res://Level2.tscn", "res://Level3.tscn", "res://fullWinScreen.tscn"]
 #const menuScreenPath : String = "res://title_screen/TitleScreen.tscn"

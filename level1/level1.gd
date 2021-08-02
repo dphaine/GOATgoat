@@ -6,18 +6,18 @@ func _ready():
 	# Tell all the sheep to go to the first goal
 	# (Probably better to change its state??)
 #	get_tree().call_group("goats", "setTarget", $StartOfTunnel)
-	$HallCam.current = true
+	$Camera.current = true
 	
-	Globals.startOfTunnelLocation = $StartOfTunnel
+	# TO-DO kill off start of tunnel
+#	Globals.startOfTunnelLocation = $StartOfTunnel
+	Globals.startOfTunnelLocation = $TunnelStartArea
+	Globals.endOfTunnelLocation = $EndOfTunnel
+	Globals.destinyLocation = $Destiny
+	Globals.breedingLocation = $breedingLocation
 	
-	print("pausing...")
-	yield(get_tree().create_timer(2.0), "timeout")
-	print("...finished pausing")
+	
+	# Hey goats!  Go to the tunnel!
 	get_tree().call_group("goats", "changeState", Globals.goatState.GOING_TO_TUNNEL)
 	
-	# force = Globals.startOfTunnelLocation.position - positoin
-	# force = force.normalized() * multiplier
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
 #func _process(delta):
 #	pass

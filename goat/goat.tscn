@@ -1,4 +1,4 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://goat/goat.gd" type="Script" id=1]
 [ext_resource path="res://goat/goat_back.svg" type="Texture" id=2]
@@ -7,6 +7,10 @@
 [sub_resource type="CapsuleShape2D" id=1]
 radius = 21.9059
 height = 6.09314
+
+[sub_resource type="CapsuleShape2D" id=2]
+radius = 22.2899
+height = 4.1943
 
 [node name="goat" type="KinematicBody2D"]
 script = ExtResource( 1 )
@@ -21,8 +25,15 @@ position = Vector2( -2.70728, 0.440338 )
 scale = Vector2( -0.06, 0.06 )
 texture = ExtResource( 3 )
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-visible = false
+[node name="goatCollider" type="CollisionShape2D" parent="."]
 position = Vector2( -0.602234, 3.40903 )
 rotation = 1.5708
+scale = Vector2( 1, 1 )
 shape = SubResource( 1 )
+
+[node name="zoneDetector" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="zoneDetector"]
+position = Vector2( -0.946014, 3.36359 )
+rotation = 1.5708
+shape = SubResource( 2 )

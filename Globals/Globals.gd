@@ -1,12 +1,15 @@
+# Globals!
 # This is a singleton object to contain the global variables
 extends Node2D
-
 
 # Since this is a singleton, these are globals and can be 
 # shared between scenes
 
 # Access this with: Globals.startOfTunnelLocation = $StartOfTunnel
-var startOfTunnelLocation : Position2D
+var startOfTunnelLocation : Node2D
+var endOfTunnelLocation : Node2D
+var destinyLocation : Node2D
+var breedingLocation : Node2D
 
 enum goatState {
 	BABY_GOING_TO_PASTURE,

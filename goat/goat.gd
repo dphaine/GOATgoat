@@ -2,19 +2,7 @@
 
 extends KinematicBody2D
 
-var target:Position2D = null
-
-#enum goatState {
-#	BABY_GOING_TO_PASTURE,
-#	BABY_GROWING,
-#	MILLING_IN_PASTURE,
-#	GOING_TO_TUNNEL,
-#	IN_TUNNEL,
-#	IN_UNKNOWN_DESTINY,
-#	IN_BREEDING_AREA,
-#	BREEDING,
-#	RETIRING
-#}
+var target:Node2D = null
 
 var goatMindset = Globals.goatState.MILLING_IN_PASTURE
 
@@ -33,22 +21,61 @@ func changeState(newState:int):
 	assert(newState < len(Globals.goatState))
 	print("changing state to ", newState)
 	
+	goatMindset = newState
+	
+	# Initialize each new state
 	if newState == Globals.goatState.GOING_TO_TUNNEL:
 		setTarget(Globals.startOfTunnelLocation)
 		print("heading to target ", Globals.startOfTunnelLocation)
 
-	goatMindset = newState
+	elif newState == Globals.goatState.IN_TUNNEL:
+		setTarget(Globals.endOfTunnelLocation)
+
+	elif newState == Globals.goatState.IN_BREEDING_AREA:
+		setTarget(Globals.breedingLocation)
+
+	elif newState == Globals.goatState.IN_UNKNOWN_DESTINY:
+		setTarget(Globals.destinyLocation)
 
 
-func setTarget(newTarget: Position2D):
+func setTarget(newTarget: Node2D):
+	assert(newTarget != null)
 	target = newTarget
 	print("Got new target ", target)
 	
 func _process(_delta):
+	var overlappingZones = $zoneDetector.get_overlapping_areas()
+	
 	if goatMindset == Globals.goatState.MILLING_IN_PASTURE:
 		pass
 	elif goatMindset == Globals.goatState.GOING_TO_TUNNEL:
-		pass
+		for zone in overlappingZones:
+			if zone.is_in_group("TunnelStartGroup"):
+#				print("Got to TunnelStart!!!")
+				changeState(Globals.goatState.IN_TUNNEL)
+				
+	elif goatMindset == Globals.goatState.IN_TUNNEL:
+		for zone in overlappingZones:
+			if zone.is_in_group("EndOfTunnelGroup"):
+#				print("Got to End of Tunnel!!!")
+				if zone.is_in_group("BreedEntrance"):
+					print("Yay ", self, " gets to breed")
+					changeState(Globals.goatState.IN_BREEDING_AREA)
+				else:
+					print("I guess ", self, " is retiring")
+					changeState(Globals.goatState.IN_UNKNOWN_DESTINY)
+		
+	elif goatMindset == Globals.goatState.IN_BREEDING_AREA:
+		for zone in overlappingZones:
+			if zone.is_in_group("BreedingZone"):
+				print("Breed me!")
+				changeState(Globals.goatState.BREEDING)
+
+	elif goatMindset == Globals.goatState.IN_UNKNOWN_DESTINY:
+		for zone in overlappingZones:
+			if zone.is_in_group("DestinyZone"):
+				queue_free()
+
 
 # warning-ignore:unused_argument
 func _physics_process(delta):
@@ -59,24 +86,17 @@ func _physics_process(delta):
 		direction = target.position - position
 		direction = direction.normalized()
 
-	if Input.is_action_pressed("ui_up"):
-		direction += Vector2(0, -1)
-
-	if Input.is_action_pressed("ui_down"):
-		direction += Vector2(0, 1)
-
-	if Input.is_action_pressed("ui_left"):
-		direction += Vector2(-1, 0)
-
-		hue += 0.01
-		$bodycolor.set_modulate(Color.from_hsv(hue, 1, 1, 1.0))
-
-
-	if Input.is_action_pressed("ui_right"):
-		direction += Vector2(1, 0)
-
-		hue -= 0.01
-		$bodycolor.set_modulate(Color.from_hsv(hue, 1, 0.5, 1.0))
+#	if Input.is_action_pressed("ui_up"):
+#		direction += Vector2(0, -1)
+#
+#	if Input.is_action_pressed("ui_down"):
+#		direction += Vector2(0, 1)
+#
+#	if Input.is_action_pressed("ui_left"):
+#		direction += Vector2(-1, 0)
+#
+#	if Input.is_action_pressed("ui_right"):
+#		direction += Vector2(1, 0)
 
 	direction = direction.normalized()
 	velocity = direction * speed

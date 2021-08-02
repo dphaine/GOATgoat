@@ -33,9 +33,14 @@ func changeState(newState:int):
 
 	elif newState == Globals.goatState.IN_BREEDING_AREA:
 		setTarget(Globals.breedingLocation)
+		Globals.sheepProcessed += 1
 
 	elif newState == Globals.goatState.IN_UNKNOWN_DESTINY:
 		setTarget(Globals.destinyLocation)
+		Globals.sheepProcessed += 1
+
+	elif newState == Globals.goatState.BREEDING:
+		target = null # Stop moving
 
 
 func setTarget(newTarget: Node2D):

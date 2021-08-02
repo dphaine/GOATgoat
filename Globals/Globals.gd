@@ -23,6 +23,9 @@ enum goatState {
 	RETIRING
 }
 
+# Number of sheepProcessed
+var sheepProcessed: int = 0
+
 ## Paths to subsequent levels.  The last one is the final tally
 #const levelPaths = ["res://Level1.tscn", "res://Level2.tscn", "res://Level3.tscn", "res://fullWinScreen.tscn"]
 #const menuScreenPath : String = "res://title_screen/TitleScreen.tscn"

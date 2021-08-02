@@ -28,7 +28,6 @@ texture = ExtResource( 3 )
 [node name="goatCollider" type="CollisionShape2D" parent="."]
 position = Vector2( -0.602234, 3.40903 )
 rotation = 1.5708
-scale = Vector2( 1, 1 )
 shape = SubResource( 1 )
 
 [node name="zoneDetector" type="Area2D" parent="."]
